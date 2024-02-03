@@ -31,9 +31,11 @@ export default App;
 
 function MyButton() {
   return ( 
-    <button onClick={onClick}>
-      I am a button!
-    </button>
+    <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+      <button>
+        I am a button!
+      </button>
+    </a>
   );
 }
 
